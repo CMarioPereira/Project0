@@ -1,0 +1,48 @@
+#header {
+  background-color: #262424;
+  text-align: center;
+  padding: 7px;
+  padding-left: 12px;
+  color: white;
+  font-weight: bold;
+}
+#first {
+  padding: 30px;
+}
+#menu {
+  background-color: #4a4545;
+  padding: 7px;
+  padding-left: 12px;
+  color: white;
+  font-weight: bold;
+}
+@media (min-width: 500px) {
+  #name::before {content: "Carlos Mario";}
+  #menu {
+    text-align: right;
+    font-size: 25px;
+  }
+  #foto {
+    margin-top: 290px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 499px) {
+  #name::before {content: "CM";}
+  #maintext {text-align: justify;}
+  #menu {
+    font-size: 20px;
+  }
+  #foto {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+table {
+  margin: 20px;
+}
+th, td { padding: 10px;}
+
+a:link {text-decoration: none }
+a:visited {color: white; text-decoration: none }
+a:hover { color: white; text-decoration: none }
